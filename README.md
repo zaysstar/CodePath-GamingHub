@@ -45,7 +45,7 @@ The following **stretch** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![](YOUR_GIF_URL_HERE)
+![ezgif-3b060eff7259a617](https://github.com/user-attachments/assets/50bece83-264d-48b9-a4e8-06064aab5329)
 
 ## Notes
 
