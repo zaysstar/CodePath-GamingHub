@@ -1,0 +1,95 @@
+/* src/pages/Home.css */
+.home-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.controls-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background: #1e1e2e;
+  color: white;
+  min-width: 200px;
+}
+
+.sort-buttons button {
+  margin-left: 10px;
+  background: #333;
+  opacity: 0.7;
+}
+
+.sort-buttons button.active {
+  background: #7289da;
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(114, 137, 218, 0.5);
+}
+
+/* Card Grid */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e1e2e;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  border: 1px solid #333;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #00ff99;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+  color: #00ff99;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.view-btn {
+  display: block;
+  text-align: center;
+  background: #333;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-btn:hover {
+  background: #7289da;
+}
